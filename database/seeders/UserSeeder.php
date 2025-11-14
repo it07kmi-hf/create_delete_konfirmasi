@@ -35,7 +35,7 @@ class UserSeeder extends Seeder
         User::updateOrCreate(
             ['username' => 'KMI-U094'],     // username SAP
             [
-                'name'      => 'KMI-CT02',
+                'name'      => 'KMI-U094',
                 'email'     => 'test01@example.com',
                 'password'  => Hash::make('konfirmasi3'),   // Password Laravel
                 'role'      => 'admin',
