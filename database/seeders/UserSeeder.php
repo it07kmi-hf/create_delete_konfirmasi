@@ -26,7 +26,7 @@ class UserSeeder extends Seeder
             ['username' => 'KMI-CT02'],     // username SAP
             [
                 'name'      => 'KMI-CT02',
-                'email'     => 'test01@example.com',
+                'email'     => 'test02@example.com',
                 'password'  => Hash::make('konfirmasi2'),   // Password Laravel
                 'role'      => 'admin',
                 'is_active' => true,
@@ -36,7 +36,7 @@ class UserSeeder extends Seeder
             ['username' => 'KMI-U094'],     // username SAP
             [
                 'name'      => 'KMI-U094',
-                'email'     => 'test01@example.com',
+                'email'     => 'test02@example.com',
                 'password'  => Hash::make('konfirmasi3'),   // Password Laravel
                 'role'      => 'admin',
                 'is_active' => true,
